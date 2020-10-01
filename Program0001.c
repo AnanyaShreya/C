@@ -32,7 +32,7 @@ int main()
 
         if(res == -1)
         {
-                printf("The array is unsorted and number could not be found\n");
+                printf("The array is unsorted and the number could not be found\n");
         }
         else
         {
