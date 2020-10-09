@@ -1,10 +1,10 @@
-Ques:
-WAP to binary search a number using recursive function.
+//Question: WAP to binary search a number using recursive function.
 
 #include <stdio.h>
 #include <math.h>
 
-int binSearch(int arr[], int s, int L, int R) {
+int binSearch(int arr[], int s, int L, int R)
+{
         if(R<L)
                 return -1;
         int mid = (L+R)/2;
@@ -32,7 +32,7 @@ int main()
 
         if(res == -1)
         {
-                printf("The array is unsorted and number could n't be found\n");
+                printf("The array is unsorted and the number could not be found\n");
         }
         else
         {
